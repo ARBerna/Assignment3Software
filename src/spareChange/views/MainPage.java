@@ -31,6 +31,7 @@ public class MainPage extends JFrame {
 	private JButton btnCalculateFunds;
 	private JButton btnSavingsGoal;
 	private JButton btnLogout;
+	private JButton btnHelp;
 	
 	//Pie chart variables
 	private int lastBills = 0;
@@ -114,8 +115,9 @@ public class MainPage extends JFrame {
         btnCalculateFunds = new JButton("Calculate Funds");
         btnSavingsGoal = new JButton("Savings Goal");
         btnLogout = new JButton("Logout");
+        btnHelp = new JButton("Help");
 
-        for (JButton b : new JButton[]{btnMainMenu, btnCalculateFunds, btnSavingsGoal, btnLogout}) {
+        for (JButton b : new JButton[]{btnMainMenu, btnCalculateFunds, btnSavingsGoal, btnLogout, btnHelp}) {
             b.setForeground(Color.WHITE);
             b.setBackground(Color.RED);
             panelMenuPanel.add(b);
