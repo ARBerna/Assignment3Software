@@ -116,6 +116,10 @@ public class MainPage extends JFrame {
         btnSavingsGoal = new JButton("Savings Goal");
         btnLogout = new JButton("Logout");
         btnHelp = new JButton("Help");
+        
+        btnHelp.addActionListener(e -> {
+        	new HelpWindow(); //opens the HelpWindow popup when the user clicks Help button
+        });
 
         for (JButton b : new JButton[]{btnMainMenu, btnCalculateFunds, btnSavingsGoal, btnLogout, btnHelp}) {
             b.setForeground(Color.WHITE);
