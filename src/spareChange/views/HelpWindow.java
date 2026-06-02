@@ -14,7 +14,7 @@ public class HelpWindow extends JFrame{
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		
-		JLabel label = new JLabel("<html><center><h3>Spare Change</h3>Version 1.0<br>Created by Ashley</center></html?", SwingConstants.CENTER);
+		JLabel label = new JLabel("<html><center><h3>Spare Change</h3>Version 1.1<br>Created by Ashley</center></html?", SwingConstants.CENTER);
 		
 		label.setOpaque(true);
 		label.setBackground(new Color(255, 255, 200));
