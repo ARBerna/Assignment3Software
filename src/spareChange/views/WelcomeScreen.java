@@ -15,6 +15,7 @@ public class WelcomeScreen extends JFrame {
 
     public WelcomeScreen() {
         initComponents();
+        System.out.println("Welcome to Spare Change!");
     }
 
     private void initComponents()
