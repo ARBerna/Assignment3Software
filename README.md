@@ -11,3 +11,9 @@
 - To run Spare Change you have to open the file in Eclipse.
 - Next you will hit the play button while the MainPage.java is openon the top bar to run it.
 - The application should run on its own now to use!
+
+
+## Info
+- Course: Software Version Management Systems
+- Name: Ashley R. Berna
+- Date: 6/15/2026
