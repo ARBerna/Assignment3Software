@@ -15,8 +15,7 @@ public class WelcomeScreen extends JFrame {
 
     public WelcomeScreen() {
         initComponents();
-        System.out.println("Welcome to Spare Change!");
-        System.out.println("Please select an option to begin");
+        WelcomeMessage();
     }
 
     private void initComponents()
@@ -86,6 +85,12 @@ public class WelcomeScreen extends JFrame {
         			.addComponent(buttonPanel, GroupLayout.DEFAULT_SIZE, 171, Short.MAX_VALUE))
         );
         contentPane.setLayout(gl_contentPane);
+    }
+
+    public static void WelcomeMessage()
+    {
+        System.out.println("Welcome to Spare Change!");
+        System.out.println("Please select an option to begin");
     }
 
     public static void main(String[] args) {
