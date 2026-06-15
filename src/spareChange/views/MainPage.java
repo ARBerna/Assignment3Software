@@ -85,6 +85,7 @@ public class MainPage extends JFrame {
                 MainPage.class.getResource("/spareChange/resources/Spare Change logo-Photoroom.png")));
         setTitle("Spare Change");
 
+        System.out.println("Welcome to the Main Page!");
         this.username = username;
         initComponents();
         createEvents();
